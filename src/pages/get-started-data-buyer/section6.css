@@ -1,0 +1,23 @@
+@media (min-width: 1024px) {
+  .lg\:text-\[90px\] {
+    font-size: 89px !important;
+  }
+}
+.border-faded-pink,
+.border-faded-pink-header {
+  border: 1px solid transparent;
+  border-radius: 43px;
+}
+
+.hover\:border-faded-pink-header-hover:hover,
+.hover\:border-faded-pink-pressed:hover {
+  background: linear-gradient(
+      231.92deg,
+      #535eff 6.18%,
+      #944dff 41.91%,
+      #ff49b6 96.46%
+    )
+    border-box;
+  border: 1px solid transparent;
+  border-radius: 43px px;
+}

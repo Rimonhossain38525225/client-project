@@ -1,0 +1,8 @@
+.data-buyer-bg-3 {
+  background-image: url("https://www.vyvo.com/_next/static/media/data-buyers-bg-3.5441676c.png");
+}
+.data-buyer-bg-3,
+.data-owner-bg {
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}

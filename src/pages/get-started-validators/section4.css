@@ -1,0 +1,11 @@
+.get-started-validators:hover .block-title {
+  background: linear-gradient(219.37deg, #ff9a62 13.85%, #ff507a 88.05%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.get-started-validators:hover .block-text {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  opacity: 1;
+}

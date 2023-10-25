@@ -1,0 +1,22 @@
+.band-bg {
+  background-image: url("https://www.vyvo.com/_next/static/media/band.3ac29de2.png");
+  background-size: cover;
+}
+.band-bg,
+.band-watch-bg {
+  height: 665px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.faded-purple-bg {
+  background: linear-gradient(219.37deg, #626cff 13.85%, #8d42e7 88.05%),
+    linear-gradient(0deg, hsla(0, 0%, 99%, 0.1), hsla(0, 0%, 99%, 0.1));
+}
+.hover\:text-black:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+.faded-purple-bg:hover {
+  background: #fff;
+}

@@ -1,0 +1,24 @@
+/* button style  */
+.border-faded-green {
+  background: linear-gradient(#000, #000) padding-box,
+    linear-gradient(233.85deg, #60a5ff 11.47%, #64ff78 96.97%) border-box;
+  border: 1px solid transparent;
+  border-radius: 43px;
+}
+.border-faded-green:hover {
+  background: linear-gradient(233.85deg, #60a5ff 11.47%, #64ff78 96.97%)
+    border-box;
+  border: 1px solid transparent;
+  border-radius: 43px;
+}
+
+.vertical-text-left,
+.vertical-text-right {
+  transform: rotate(90deg);
+  transform-origin: left top;
+  white-space: nowrap;
+  position: relative;
+}
+.vertical-text-left {
+  left: 100%;
+}

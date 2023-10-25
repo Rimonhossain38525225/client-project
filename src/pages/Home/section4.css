@@ -1,0 +1,29 @@
+.faded-purple-vertical {
+  background: linear-gradient(180deg, #276bf7, #a25bee);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.border-faded-pink {
+  background: linear-gradient(#000, #000) padding-box,
+    linear-gradient(231.92deg, #535eff 6.18%, #944dff 41.91%, #ff49b6 96.46%)
+      border-box;
+}
+.border-faded-pink,
+.border-faded-pink-header {
+  border: 1px solid transparent;
+  border-radius: 43px;
+}
+
+.hover\:border-faded-pink-header-hover:hover,
+.hover\:border-faded-pink-pressed:hover {
+  background: linear-gradient(
+      231.92deg,
+      #535eff 6.18%,
+      #944dff 41.91%,
+      #ff49b6 96.46%
+    )
+    border-box;
+  border: 1px solid transparent;
+  border-radius: 43px;
+}

@@ -1,0 +1,25 @@
+@media (min-width: 1024px) {
+  .data-buyer-bg-2 {
+    background-image: url("https://www.vyvo.com/_next/static/media/data-buyers-bg-2.6fead332.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: 650px !important;
+  }
+}
+.data-buyer-bg-2 {
+  background-image: url("https://www.vyvo.com/_next/static/media/data-buyers-bg-2.6fead332.png");
+  height: 640px;
+}
+.data-buyer-bg-2,
+.data-buyer-bg-mobile {
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+@media (min-width: 768px) {
+  .data-buyer-bg-2 {
+    background-image: url("https://www.vyvo.com/_next/static/media/data-buyers-bg-2.6fead332.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    height: auto;
+  }
+}

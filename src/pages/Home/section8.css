@@ -1,0 +1,15 @@
+.purple-red-circle-bg {
+  background-image: url("https://www.vyvo.com/_next/static/media/home-red-wheel.3c877b02.png");
+}
+.planet-bg,
+.purple-red-circle-bg {
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+
+.faded-pink-secondary {
+  background: linear-gradient(248.41deg, #ff49b6 15.06%, #944dff 83.21%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

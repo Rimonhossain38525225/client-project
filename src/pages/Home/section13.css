@@ -1,0 +1,46 @@
+.container-purple-line {
+  width: 100%;
+  height: 76px;
+  border-radius: 12px;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-purple-line:hover:before {
+  content: "";
+  background-image: conic-gradient(#4429f2 20deg, #000 120deg);
+  width: 400%;
+  height: 400%;
+  position: absolute;
+  animation: rotate 5s linear infinite;
+}
+.container-purple-line:after {
+  content: "";
+  width: calc(100% - 2px);
+  height: calc(100% - 2px);
+  background: #000;
+  position: absolute;
+  border-radius: 12px;
+}
+
+.huge-dots-left,
+.huge-dots-left-bottom,
+.staking-huge-dots-left {
+  background-image: url("https://www.vyvo.com/_next/static/media/huge-dots-left.cd683e9c.png");
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: bottom;
+  position: relative;
+}
+.huge-dots-left {
+  height: 200px;
+  top: -35px;
+}
+@keyframes rotate {
+  to {
+    transform: rotate(360deg);
+  }
+}

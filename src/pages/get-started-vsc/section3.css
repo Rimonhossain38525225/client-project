@@ -1,0 +1,21 @@
+.vsc-basics-bg-3,
+.vsc-basics-bg-3-mobile {
+  background-image: url("https://www.vyvo.com/_next/static/media/vsc-basics-bg-3-new.c4124a30.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  top: 0px !important;
+}
+.vsc-basics-bg-3 {
+  height: 850px;
+}
+.faded-purple-to-orange {
+  background: linear-gradient(
+    89.98deg,
+    #8d42e7 31.14%,
+    #e7429b 67.21%,
+    #e7a542 102.15%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

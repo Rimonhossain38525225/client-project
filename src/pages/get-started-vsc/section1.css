@@ -1,0 +1,25 @@
+.vsc-basics-bg {
+  background-image: url("https://www.vyvo.com/_next/static/media/vsc-first-bg.ff055e3f.png");
+}
+.press-bg,
+.vsc-basics-bg {
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.faded-lilac-alt {
+  background: linear-gradient(226.36deg, #626cff 14.79%, #d042e7 95.33%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.faded-lilac-alt,
+.faded-pink {
+  -webkit-text-fill-color: transparent;
+}
+.vsc-huge-dots {
+  background-image: url("https://www.vyvo.com/_next/static/media/vsc-double-dots.fa402a4e.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  position: relative;
+  top: -35px;
+}

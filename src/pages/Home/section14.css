@@ -1,0 +1,18 @@
+.huge-dots-right {
+  background-image: url("https://www.vyvo.com//_next/static/media/huge-dots-right.2e97ba99.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: top;
+}
+.faded-pink-tertiary {
+  background: linear-gradient(245.21deg, #4a56ff 16.43%, #e64fff 66.62%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.hover\:faded-lilac:hover {
+  background: linear-gradient(219.37deg, #626cff 13.85%, #8d42e7 88.05%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

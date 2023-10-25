@@ -1,0 +1,11 @@
+.pre-footer-gradient-purple-to-yellow {
+  background: linear-gradient(
+    90deg,
+    #8d42e7 35.07%,
+    #e7429b 49.62%,
+    #e7a542 62.88%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

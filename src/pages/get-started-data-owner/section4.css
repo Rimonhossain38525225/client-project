@@ -1,0 +1,5 @@
+.get-started-data-owner:hover .block-text {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  opacity: 1;
+}

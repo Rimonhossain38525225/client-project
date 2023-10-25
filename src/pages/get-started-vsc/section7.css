@@ -1,0 +1,19 @@
+.faded-purple-to-orange-tertiary {
+  background: linear-gradient(
+    89.72deg,
+    #8d42e7 0.15%,
+    #e7429b 44.66%,
+    #e7a542 87.76%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.vsc-basics-bg-5,
+.vsc-basics-bg-6 {
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.vsc-basics-bg-6 {
+  background-image: url("https://www.vyvo.com/_next/static/media/vsc-basics-bg-6.5c8fde33.png");
+}

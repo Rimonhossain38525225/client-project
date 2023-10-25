@@ -1,0 +1,19 @@
+.safari-slider span {
+  font-size: 168px;
+  --marquee-time: 20s;
+  animation: marquee var(--marquee-time) linear(0.36 -17.97%, 1 100%) infinite;
+}
+.pre-footer-gradient-purple {
+  background: linear-gradient(270.03deg, #626cff 39.26%, #d042e7 64.14%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+@keyframes marquee {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}

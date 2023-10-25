@@ -1,0 +1,9 @@
+.huge-dots-left,
+.huge-dots-left-bottom,
+.staking-huge-dots-left {
+  background-image: url("https://www.vyvo.com/_next/static/media/huge-dots-left.cd683e9c.png");
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: bottom;
+  position: relative;
+}

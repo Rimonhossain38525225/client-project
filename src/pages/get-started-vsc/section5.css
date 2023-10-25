@@ -1,0 +1,19 @@
+.vsc-basics-bg-5 {
+  background-image: url("https://www.vyvo.com//_next/static/media/device-man-bg3.b097cc33.png");
+}
+.vsc-basics-bg-5,
+.vsc-basics-bg-6 {
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.faded-purple-to-orange-alt {
+  background: linear-gradient(
+    89.74deg,
+    #8d42e7 1.96%,
+    #e7429b 54.66%,
+    #e7a542 105.7%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

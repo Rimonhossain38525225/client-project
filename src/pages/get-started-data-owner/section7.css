@@ -1,0 +1,11 @@
+.border-faded-light-blue-store {
+  background: linear-gradient(#000, #000) padding-box,
+    linear-gradient(233.85deg, #60a5ff 11.47%, #64ff78 96.97%) border-box;
+  border: 1px solid transparent;
+  border-radius: 13px;
+}
+@media (min-width: 1024px) {
+  .lg\:text-\[90px\] {
+    font-size: 86px;
+  }
+}

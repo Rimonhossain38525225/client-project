@@ -1,0 +1,13 @@
+.get-started-validators:hover button {
+  background: linear-gradient(#000, #000) padding-box,
+    linear-gradient(90deg, #ff9a62 37.7%, #ff507a 106.15%) border-box;
+  border: 1px solid transparent;
+  border-radius: 43px;
+}
+
+.get-started-validators:hover button span {
+  background: linear-gradient(219.37deg, #ff9a62 13.85%, #ff507a 88.05%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

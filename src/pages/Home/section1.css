@@ -1,0 +1,90 @@
+.animation {
+  vertical-align: sub;
+  display: inline-block;
+  margin-top: -0.1em;
+  margin-bottom: -0.1em;
+  height: 1.2em;
+}
+.animation-window {
+  height: 1.2em;
+  overflow: hidden;
+  background-color: #fff;
+}
+.animation ul {
+  position: absolute;
+  list-style: none;
+  top: 0;
+  padding: 0;
+  margin: 0;
+}
+
+.word-item {
+  position: absolute;
+  opacity: 0;
+  transform: translateY(100%);
+  transition: opacity 0.5s, transform 0.5s;
+}
+.faded-purple {
+  background: linear-gradient(90deg, #6355ff 37.7%, #ff47ed 106.15%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.border-faded-purple {
+  background: linear-gradient(#000, #000) padding-box,
+    linear-gradient(90deg, #6355ff 37.7%, #ff47ed 106.15%) border-box;
+  border: 1px solid transparent;
+  border-radius: 43px;
+}
+.border-faded-purple:hover {
+  background: linear-gradient(90deg, #6355ff 37.7%, #ff47ed 106.15%) border-box;
+  border: 1px solid transparent;
+  border-radius: 43px;
+}
+.faded-lilac {
+  background: linear-gradient(219.37deg, #626cff 13.85%, #8d42e7 88.05%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.faded-blue,
+.faded-lilac {
+  -webkit-text-fill-color: transparent;
+}
+
+.circle-bg {
+  background-image: url("https://www.vyvo.com/_next/static/media/union.0334cfe7.png");
+}
+.circle-bg,
+.dots-bg {
+  background-repeat: no-repeat;
+}
+.home-bg-2 {
+  background-image: url("https://www.vyvo.com/_next/static/media/twisted-dots-black2.33c9f02b.png");
+  background-position-y: bottom;
+}
+.home-bg,
+.home-bg-2 {
+  background-repeat: no-repeat;
+}
+
+/* card 1 style  */
+.faded-pink {
+  background: linear-gradient(247.05deg, #ff517b 14.93%, #e742e0 85.18%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.faded-lilac-alt,
+.faded-pink {
+  -webkit-text-fill-color: transparent;
+}
+/* card 2 style  */
+
+.faded-light-blue {
+  background: linear-gradient(233.85deg, #60a5ff 11.47%, #64ff78 96.97%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.faded-light-blue,
+.faded-orange {
+  -webkit-text-fill-color: transparent;
+}

@@ -1,0 +1,17 @@
+.validators-bg,
+.validators-bg-mobile {
+  background-image: url("https://www.vyvo.com/_next/static/media/validators-first-bg.c06150b4.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.border-faded-tangerine {
+  background: linear-gradient(#000, #000) padding-box,
+    linear-gradient(90deg, #ff9a62 37.7%, #ff507a 106.15%) border-box !important;
+  border: 1px solid transparent;
+  border-radius: 43px;
+}
+.border-faded-tangerine-hover:hover {
+  background: linear-gradient(90deg, #ff9a62 37.7%, #ff507a 106.15%) border-box;
+  border: 1px solid transparent !important;
+  border-radius: 43px;
+}

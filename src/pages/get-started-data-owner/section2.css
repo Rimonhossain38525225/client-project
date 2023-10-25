@@ -1,0 +1,8 @@
+.data-owner-bg-2 {
+  background-image: url("https://www.vyvo.com/_next/static/media/data-owner-bg-2.88fcebf9.png");
+}
+.data-owner-bg-2,
+.data-owner-bg-3 {
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}

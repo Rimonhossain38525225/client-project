@@ -1,0 +1,11 @@
+.vsc-basics-bg-4 {
+  background-image: url("https://www.vyvo.com/_next/static/media/vsc-basics-bg-4.b72a85ea.png");
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  background-position-y: -300px;
+}
+.faded-orange {
+  background: linear-gradient(235.71deg, #fa5e4d 11.12%, #fcc252 97.14%);
+  background-clip: text;
+  -webkit-background-clip: text;
+}

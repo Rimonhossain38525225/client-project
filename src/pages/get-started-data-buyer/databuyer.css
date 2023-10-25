@@ -1,0 +1,9 @@
+.data-buyer-bg {
+  background-image: url("https://www.vyvo.com/_next/static/media/data-buyers-test.cd4ea6b7.png");
+  height: 640px;
+}
+.data-buyer-bg,
+.device-manufacturers-circles-bg {
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
