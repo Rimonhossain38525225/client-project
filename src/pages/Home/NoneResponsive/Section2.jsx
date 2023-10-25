@@ -1,4 +1,3 @@
-/* eslint-disable react/jsx-no-comment-textnodes */
 /* eslint-disable no-unused-vars */
 import React from "react";
 
@@ -19,7 +18,7 @@ function Section2() {
                   <div className="flex text-[60px] 2xl:text-[90px] text-white font-light">
                     <span className="">
                       <span className="text-[#7C7C7C] 2xl:text-[90px] lg:mr-10 2xl:mr-20">
-                        //
+                        {"//"}
                       </span>
                       <span className="faded-light-blue leading-[92px] tracking-[-2%]">
                         How&nbsp;

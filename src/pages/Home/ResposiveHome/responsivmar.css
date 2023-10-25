@@ -1,0 +1,5 @@
+.safari-slider span {
+  font-size: 72px;
+  --marquee-time: 20s;
+  animation: marquee var(--marquee-time) linear(0.36 -17.97%, 1 100%) infinite;
+}

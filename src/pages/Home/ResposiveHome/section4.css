@@ -1,0 +1,24 @@
+.group:hover .group-hover\:border-faded-tangerine {
+  background: linear-gradient(#000, #000) padding-box,
+    linear-gradient(90deg, #ff9a62 37.7%, #ff507a 106.15%) border-box;
+  border: 1px solid transparent;
+  border-radius: 43px;
+}
+.group:hover .group-hover\:border-faded-pink-to-orange {
+  background: linear-gradient(#000, #000) padding-box,
+    linear-gradient(235.71deg, #d56ae5 11.12%, #ff965a 97.14%) border-box;
+  border: 1px solid transparent;
+  border-radius: 43px;
+}
+.group:hover .group-hover\:border-faded-light-blue {
+  background: linear-gradient(#000, #000) padding-box,
+    linear-gradient(233.85deg, #60a5ff 11.47%, #64ff78 96.97%) border-box;
+  border: 1px solid transparent;
+  border-radius: 43px;
+}
+.group:hover .group-hover\:border-faded-green-lime {
+  background: linear-gradient(#000, #000) padding-box,
+    linear-gradient(233.85deg, #d3ff57 11.47%, #3fdd4e 96.97%) border-box;
+  border: 1px solid transparent;
+  border-radius: 43px;
+}

@@ -1,0 +1,10 @@
+.band-watch-bg {
+  background-image: url("https://www.vyvo.com/backgrounds/band.png");
+  background-size: 100% auto;
+}
+.band-bg,
+.band-watch-bg {
+  height: 665px;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}

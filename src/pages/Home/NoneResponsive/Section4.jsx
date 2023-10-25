@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 
-import heartSvg from "../../assets/images/heart.svg";
+import heartSvg from "../../../assets/images/heart.svg";
 
 import "./section4.css";
 function Section4() {

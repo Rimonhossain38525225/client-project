@@ -1,0 +1,6 @@
+.scrollable-grid {
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  white-space: nowrap;
+}

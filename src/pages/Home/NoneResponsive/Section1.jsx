@@ -6,8 +6,8 @@ import React from "react";
 // css link
 import "./section1.css";
 // video
-import worldStart1Video from "../.././assets/videos/world-start1.mp4";
-import worldLoop1Video from "../.././assets/videos/world-loop1.mp4";
+import worldStart1Video from "../../.././assets/videos/world-start1.mp4";
+import worldLoop1Video from "../../.././assets/videos/world-loop1.mp4";
 function Section1() {
   return (
     <>

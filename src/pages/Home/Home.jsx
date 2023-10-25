@@ -2,21 +2,22 @@
 import React from "react";
 
 // import all section home
-import Section1 from "./Section1";
-import Section2 from "./Section2";
-import Section3 from "./Section3";
-import Section4 from "./Section4";
-import Section5 from "./Section5";
-import Section6 from "./Section6";
-import Section7 from "./Section7";
-import Section8 from "./Section8";
-import Section9 from "./Section9";
-import Section10 from "./Section10";
-import Section11 from "./Section11";
-import Section12 from "./Section12";
-import Section13 from "./Section13";
-import Section14 from "./Section14";
+import Section1 from "./NoneResponsive/Section1";
+import Section2 from "./NoneResponsive/Section2";
+import Section3 from "./NoneResponsive/Section3";
+import Section4 from "./NoneResponsive/Section4";
+import Section5 from "./NoneResponsive/Section5";
+import Section6 from "./NoneResponsive/Section6";
+import Section7 from "./NoneResponsive/Section7";
+import Section8 from "./NoneResponsive/Section8";
+import Section9 from "./NoneResponsive/Section9";
+import Section10 from "./NoneResponsive/Section10";
+import Section11 from "./NoneResponsive/Section11";
+import Section12 from "./NoneResponsive/Section12";
+import Section13 from "./NoneResponsive/Section13";
+import Section14 from "./NoneResponsive/Section14";
 import Marquee from "../../components/Marquee";
+import ResposiveHome from "./ResposiveHome/ResposiveHome";
 
 function Home() {
   return (
@@ -38,7 +39,7 @@ function Home() {
         <Section14 />
         <Marquee />
       </div>
-      <div className="block lg:hidden"></div>
+      <ResposiveHome />
     </>
   );
 }
