@@ -292,7 +292,7 @@ const Header2 = () => {
                       </button>
                     </h2>
                     <div
-                      className="chakra-collapse block animate-fade-left animate-duration-[200ms] animate-ease-in"
+                      className="chakra-collapse block  animate-fade-left animate-duration-[200ms] animate-ease-in"
                       style={
                         opneColaps3
                           ? {
@@ -313,7 +313,7 @@ const Header2 = () => {
                         role="region"
                         id="accordion-panel-:r24:"
                         aria-labelledby="accordion-button-:r24:"
-                        className="chakra-accordion__panel bg-[#292929CC] text-[#F6F6F6] font-light leading-[22px] text-[14px] grid grid-cols-12 css-1hb5ode"
+                        className="chakra-accordion__panel ml-4 bg-[#292929CC] text-[#F6F6F6] font-light leading-[22px] text-[14px] grid grid-cols-12 css-1hb5ode"
                       >
                         <a
                           className="block py-2 text-white font-normal opacity-90 col-span-6"
@@ -399,7 +399,7 @@ const Header2 = () => {
                         role="region"
                         id="accordion-panel-:r26:"
                         aria-labelledby="accordion-button-:r26:"
-                        className="chakra-accordion__panel bg-[#292929CC] text-[#F6F6F6] font-light leading-[22px] text-[14px] grid grid-cols-12 css-1hb5ode"
+                        className="chakra-accordion__panel ml-4 bg-[#292929CC] text-[#F6F6F6] font-light leading-[22px] text-[14px] grid grid-cols-12 css-1hb5ode"
                       >
                         <a
                           className="col-span-6 py-2 block relative text-white before:content-['Coming_Soon'] before:absolute before:opacity-0 before:transition-opacity before:duration-500 hover:before:opacity-100 after:content-['Wallet'] after:duration-500 after:transition-opacity hover:after:opacity-0"
@@ -475,7 +475,7 @@ const Header2 = () => {
                         role="region"
                         id="accordion-panel-:r28:"
                         aria-labelledby="accordion-button-:r28:"
-                        className="chakra-accordion__panel bg-[#292929CC] text-[#F6F6F6] font-light leading-[22px] text-[14px] grid grid-cols-12 css-1hb5ode"
+                        className="chakra-accordion__panel ml-4 bg-[#292929CC] text-[#F6F6F6] font-light leading-[22px] text-[14px] grid grid-cols-12 css-1hb5ode"
                       >
                         <a
                           target="_blank"
