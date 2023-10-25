@@ -1,10 +1,13 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
+import ContactUsFormSection from "./ContactUsFormSection";
 
 function ContactUsPage() {
   return (
     <>
-      <h1>ContactUsPage</h1>
+      <div className="2xl:max-w-[1920px] 2xl:mx-auto">
+        <ContactUsFormSection />
+      </div>
     </>
   );
 }

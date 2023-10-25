@@ -79,11 +79,11 @@ function Footer() {
                         Data Services
                       </button>
                     </NavLink>
-                    <a href="/get-started-device-manufacturers">
+                    <NavLink to="get-started-device-manufacturers">
                       <button className="text-[20px] lg:text-[24px] text-[#FCFCFC] leading-[32px] font-light hover:faded-lilac">
                         Manufacturers
                       </button>
-                    </a>
+                    </NavLink>
                     <NavLink to="get-started-validators">
                       <button className="text-[20px] lg:text-[24px] text-[#FCFCFC] leading-[32px] font-light hover:faded-lilac">
                         Validators
@@ -115,11 +115,11 @@ function Footer() {
                   </div>
                   <div className="col-span-6 flex flex-col items-center md:items-start gap-y-4">
                     <span className="text-[12px] text-[#979797]">CONNECT</span>
-                    <a href="/press">
+                    <NavLink to="press">
                       <button className="text-[20px] lg:text-[24px] text-[#FCFCFC] leading-[32px] font-light hover:faded-lilac">
                         Press
                       </button>
-                    </a>
+                    </NavLink>
                     {/* <a href="https://discord.gg/vyvosmartchain">
                       <button className="text-[20px] lg:text-[24px] text-[#FCFCFC] leading-[32px] font-light hover:faded-lilac">
                         Discord

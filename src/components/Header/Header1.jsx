@@ -7,6 +7,7 @@ import "./header1.css";
 
 // logo
 import logo from "../../assets/images/logo.png";
+
 function Header1() {
   return (
     <>

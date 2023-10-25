@@ -1,0 +1,26 @@
+.device-manufacturers-bg {
+  background-image: url("https://www.vyvo.com/_next/static/media/device-man-bg-good.bce969fa.png");
+}
+.device-manufacturers-bg,
+.device-manufacturers-bg3 {
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}
+.faded-pink-quaternary {
+  background: linear-gradient(
+    90.68deg,
+    #535eff 61.99%,
+    #944dff 76.74%,
+    #ff49b6 99.25%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.faded-green-secondary {
+  background: linear-gradient(237.19deg, #d3ff57 -27.62%, #3fdd4e 80.4%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

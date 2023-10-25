@@ -1,0 +1,8 @@
+.device-manufacturers-circles-bg {
+  background-image: url("https://www.vyvo.com/_next/static/media/device-man-circles.c9ae961d.png");
+}
+.data-buyer-bg,
+.device-manufacturers-circles-bg {
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+}

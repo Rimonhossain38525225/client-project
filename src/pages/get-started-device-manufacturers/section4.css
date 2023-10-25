@@ -1,0 +1,20 @@
+.square-dots-right {
+  background-image: url("https://www.vyvo.com/_next/static/media/square-dots-right.67dda08d.png");
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+:focus-visible {
+  outline: 0 solid #000;
+}
+.get-started-device:hover .block-title {
+  background: linear-gradient(237.19deg, #d3ff57 -27.62%, #3fdd4e 80.4%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  opacity: 1;
+}
+.get-started-device:hover .block-text {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  opacity: 1;
+}
