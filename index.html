@@ -5,6 +5,7 @@
     <link rel="icon" type="image/png" href="/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vyvo Smart Chain</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body
     class="Vyvo-wk __className_b689df bg-black chakra-ui-light rcf-whitelist"
@@ -14,5 +15,14 @@
   >
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once: true,
+      });
+      // window.addEventListener("scroll", function () {
+      //   AOS.refresh();
+      // });
+    </script>
   </body>
 </html>

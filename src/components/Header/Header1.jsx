@@ -28,13 +28,15 @@ const Header1 = () => {
         <nav>
           <div>
             <button
+              data-aos="fade-down-left"
               type="button"
               className={
                 toggle
                   ? "relative invisible flex-row items-center right-0 justify-center p-2 h-16 w-36 text-sm text-black focus:outline-none bg-white py-2 px-5"
                   : "relative flex flex-row items-center right-0 justify-center p-2 h-16 w-36 text-sm text-black focus:outline-none bg-white py-2 px-5"
               }
-              onClick={() => setToggle(!toggle)}>
+              onClick={() => setToggle(!toggle)}
+            >
               <span className="sr-only">Open main menu</span>
               ++ MENU
             </button>
@@ -46,7 +48,8 @@ const Header1 = () => {
                     <button
                       type="button"
                       className="relative flex flex-row items-center right-0 justify-center ml-20 p-2 h-16 w-36 text-sm text-white focus:outline-none bg-transparent py-2 px-5 order-last"
-                      onClick={() => setToggle(!toggle)}>
+                      onClick={() => setToggle(!toggle)}
+                    >
                       <span className="sr-only">Close main menu</span>-- CLOSE
                     </button>
                     <ul className="flex font-medium gap-x-10 p-8 text white text-xs py-4 text-white">
@@ -54,7 +57,8 @@ const Header1 = () => {
                         <NavLink
                           className="text white text-xs leading-[21px] tracking-[2px] py-4 font-medium opacity-90"
                           aria-current="page"
-                          to="/">
+                          to="/"
+                        >
                           HOME
                         </NavLink>
                       </li>
@@ -112,31 +116,36 @@ const Header1 = () => {
                         <a
                           className="block py-2 text-white font-normal opacity-90"
                           aria-current="page"
-                          href="/get-started-vsc#what-is-vsc">
+                          href="/get-started-vsc#what-is-vsc"
+                        >
                           What is VSC
                         </a>
                         <a
                           className="block py-2 text-white font-normal opacity-90"
                           aria-current="page"
-                          href="/get-started-vsc#data-nfts">
+                          href="/get-started-vsc#data-nfts"
+                        >
                           Data-NFTs
                         </a>
                         <a
                           className="block py-2 text-white font-normal opacity-90"
                           aria-current="page"
-                          href="/get-started-vsc#pose">
+                          href="/get-started-vsc#pose"
+                        >
                           PoSe
                         </a>
                         <a
                           className="block py-2 text-white font-normal opacity-90"
                           aria-current="page"
-                          href="/get-started-vsc#tokenomics">
+                          href="/get-started-vsc#tokenomics"
+                        >
                           Tokenomics
                         </a>
                         <a
                           className="block py-2 text-white font-normal opacity-90"
                           aria-current="page"
-                          href="/get-started-vsc#ddh-platform">
+                          href="/get-started-vsc#ddh-platform"
+                        >
                           DDH Platform
                         </a>
                         <a
@@ -144,7 +153,8 @@ const Header1 = () => {
                           aria-current="page"
                           target="_blank"
                           rel="noreferrer"
-                          href="https://vyvo.org/">
+                          href="https://vyvo.org/"
+                        >
                           VSC Foundation
                         </a>
                       </li>
@@ -157,25 +167,29 @@ const Header1 = () => {
                           aria-current="page"
                           target="_blank"
                           rel="noreferrer"
-                          href="https://linktr.ee/vyvosmartchain">
+                          href="https://linktr.ee/vyvosmartchain"
+                        >
                           Socials
                         </a>
                         <NavLink
                           className="block py-2 text-white font-normal opacity-90"
                           aria-current="page"
-                          to="/press">
+                          to="/press"
+                        >
                           Press
                         </NavLink>
                         <NavLink
                           className="block py-2 text-white font-normal opacity-90"
                           aria-current="page"
-                          to="/contact-us">
+                          to="/contact-us"
+                        >
                           Contact
                         </NavLink>
                         <NavLink
                           className="block py-2 text-white font-normal opacity-90"
                           aria-current="page"
-                          to="/business-inquiries">
+                          to="/business-inquiries"
+                        >
                           Business Inquiries
                         </NavLink>
                       </li>
@@ -186,19 +200,23 @@ const Header1 = () => {
                         <a
                           className="py-2 relative text-white before:content-['Coming_Soon'] before:absolute before:opacity-0 before:transition-opacity before:duration-500 hover:before:opacity-100 after:content-['Wallet'] after:duration-500 after:transition-opacity hover:after:opacity-0"
                           aria-current="page"
-                          href="#"></a>
+                          href="#"
+                        ></a>
                         <a
                           className="py-2 relative text-white before:content-['Coming_Soon'] before:absolute before:opacity-0 before:transition-opacity before:duration-500 hover:before:opacity-100 after:content-['Bridge'] after:duration-500 after:transition-opacity hover:after:opacity-0"
                           aria-current="page"
-                          href="#"></a>
+                          href="#"
+                        ></a>
                         <a
                           className="py-2 relative text-white before:content-['Coming_Soon'] before:absolute before:opacity-0 before:transition-opacity before:duration-500 hover:before:opacity-100 after:content-['Stake'] after:duration-500 after:transition-opacity hover:after:opacity-0"
                           aria-current="page"
-                          href="#"></a>
+                          href="#"
+                        ></a>
                         <a
                           className="py-2 relative text-white before:content-['Coming_Soon'] before:absolute before:opacity-0 before:transition-opacity before:duration-500 hover:before:opacity-100 after:content-['Faucet'] after:duration-500 after:transition-opacity hover:after:opacity-0"
                           aria-current="page"
-                          href="#"></a>
+                          href="#"
+                        ></a>
                       </li>
                       <li className="flex flex-col">
                         <span className="text white text-xs leading-[21px] tracking-[2px] py-4 font-medium uppercase">
@@ -209,7 +227,8 @@ const Header1 = () => {
                           rel="noreferrer"
                           className="block py-2 text-white font-normal opacity-90"
                           aria-current="page"
-                          href="https://masterrit.com/login">
+                          href="https://masterrit.com/login"
+                        >
                           Login
                         </a>
                       </li>
